@@ -102,3 +102,6 @@ all.config
 *.log
 *dtb
 *.zip
+
+# Object directory
+out/
