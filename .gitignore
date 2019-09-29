@@ -22,16 +22,21 @@
 *.lst
 *.symtypes
 *.order
-modules.builtin
 *.elf
 *.bin
 *.gz
 *.bz2
 *.lzma
 *.xz
+*.lz4
 *.lzo
 *.patch
 *.gcno
+*.ll
+modules.builtin
+Module.symvers
+*.dwo
+out
 
 #
 # Top-level generic files
@@ -43,7 +48,6 @@ modules.builtin
 /vmlinuz
 /System.map
 /Module.markers
-/Module.symvers
 
 #
 # Debian directory (make deb-pkg)
@@ -92,5 +96,9 @@ signing_key.priv
 signing_key.x509
 x509.genkey
 
-# Generated source files
-smd_rpc_sym.c
+# Kconfig presets
+all.config
+
+*.log
+*dtb
+*.zip
