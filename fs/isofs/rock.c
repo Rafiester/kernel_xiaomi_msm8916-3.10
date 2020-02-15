@@ -30,7 +30,7 @@ struct rock_state {
 	int cont_size;
 	int cont_extent;
 	int cont_offset;
-	int cont_loops;
+        int cont_loops;
 	struct inode *inode;
 };
 
